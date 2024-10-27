@@ -1,14 +1,14 @@
 # Programa que gera CPFs
-# 19/10/2024
+# 19/10/2024 (backend)
+# 26/10/2024 (frontend)
 
 import random
 import regioes_fiscais as regioes
 
-def oito_dig(): # gera os oito primeiros dígitos do CPF
-    cpf_8 = ''.join(random.choices('0123456789', k=8))
-    return cpf_8
+# gera os oito primeiros caracteres do cpf
+cpf = ''.join(random.choices('0123456789', k=8))
 
-cpf = oito_dig()
+# adiciona pontos ao cpf
 cpf = '.'.join(cpf[i:i+3] for i in range(0, len(cpf), 3)) + \
     str(regioes.regiao_fiscal)
 

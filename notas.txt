@@ -1,0 +1,3 @@
+Adicionar uma página de configurações
+Adicionar créditos
+Adicionar dropdown menu
