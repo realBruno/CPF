@@ -8,11 +8,11 @@ regiao_2 = 'AC', 'AM', 'AP', 'PA', 'RO', 'RR'
 regiao_3 = 'CE', 'MA', 'PI'
 regiao_4 = 'AL', 'PB', 'PE', 'RN'
 regiao_5 = 'BA', 'SE'
-regiao_6 = 'MG'
+regiao_6 = 'MG',
 regiao_7 = 'ES', 'RJ'
-regiao_8 = 'SP'
+regiao_8 = 'SP',
 regiao_9 = 'PR', 'SC'
-regiao_0 = 'RS'
+regiao_0 = 'RS',
 
 if regiao_fiscal in regiao_1:
     regiao_fiscal = 1
