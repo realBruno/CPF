@@ -2,7 +2,7 @@
 Programa em Python que gera Cadastros de Pessoas Físicas válidos.
 
 TO DO LIST:
-* [] Permitir que o usuário escolha a estado de origem do CPF ();
+* [] Permitir que o usuário escolha o estado de origem do CPF ();
 * [] Melhorar a interface.
 
 # Apresentação do Projeto
